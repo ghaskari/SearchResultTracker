@@ -2,3 +2,4 @@
 *.csv
 *.xlsx
 .google-cookie
+__pycache__
