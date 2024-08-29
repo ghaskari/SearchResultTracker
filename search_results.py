@@ -33,7 +33,7 @@ class SearchApp:
             data_results = pd.concat([data_results, df], ignore_index=True, axis=1)
 
         data_results.columns =['Ranking', 'Site', 'Link']
-        data_results.to_csv(f'{query.strip()}_search_history.csv', index=False)
+        data_results.to_csv(f'Sample/{query.strip()}_search_history.csv', index=False)
 
     def run(self):
         self.root = tk.Tk()
