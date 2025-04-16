@@ -3,3 +3,5 @@
 #*.xlsx
 .google-cookie
 __pycache__
+.venv
+.idea
