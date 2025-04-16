@@ -20,7 +20,9 @@ class SetupSearchEngine:
 
         for rank, result in enumerate(results, start=1):
             result = result.replace('www.', '')
+            print(result)
             ranking_list.append(rank)
+            print(ranking_list)
             site_name_list.append(result.split('/')[2])
             results_list.append(result)
 
